@@ -4,7 +4,7 @@ UTF-8 Validation
 """
 
 
-def valid_utf8(data):
+def validUTF8(data):
     """
     data: a list of integers
     Return: True if data is a valid UTF-8
