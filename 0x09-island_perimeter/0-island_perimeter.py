@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-
-"""
-0-island_perimeter
+"""Island_perimeter problem
 """
 
 
