@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""Island_perimeter problem
+"""
+Island_perimeter problem
 """
 
 
@@ -25,7 +26,6 @@ def island_perimeter(grid: list[list[int]]) -> int:
             return dfs(r-1, c) + dfs(r+1, c)\
                 + dfs(r, c-1) + dfs(r, c+1)
         return 0
-
     for r in range(rows):
         for c in range(cols):
             if grid[r][c] == 1:
