@@ -1,8 +1,14 @@
 #!/usr/bin/python3
 
-# island_perimeter function
+def island_perimeter(grid: list[list[int]]) -> int:
+    """
+    Calculates the perimeter of the island described in grid
+    Args:
+        grid: 2d list of integers containing 0(water) or 1(land)
+    Return:
+        the perimeter of the island
+    """
 
-def island_perimeter(grid):
     perimeter = 0
     rows = len(grid)
     cols = len(grid[0])
